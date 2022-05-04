@@ -21,7 +21,7 @@ public class Account {
 
 
     @PostMapping(path = "/account")
-    public ResponseEntity<Object> createAccount(@RequestBody final AccountDto account){
+public ResponseEntity<Object> createAccount(@RequestBody final AccountDto account){
 
         try {
             val accountEntity = service.create(account);

@@ -47,17 +47,17 @@ Se você for aprovado nesta etapa, será convidado para uma entrevista final com
   - O que esperamos como escopo mínimo:
     ```
     * Implementar path que realiza a criação de uma conta; --ok
-    * Implementar path que realiza operação de depósito em uma conta;
+    * Implementar path que realiza operação de depósito em uma conta; ok
     * Implementar path que realiza operação de consulta de saldo em determinada conta; --ok
-    * Implementar path que realiza operação de saque em uma conta;
+    * Implementar path que realiza operação de saque em uma conta; ok
     * Implementar path que realiza o bloqueio de uma conta; --ok
-    * Implementar path que recupera o extrato de transações de uma conta;
+    * Implementar path que recupera o extrato de transações de uma conta; ok
     ```
   - O que será diferencial:
     ```
-    * Implementar extrato por período;
-    * Elaborar manual de execução;
-    * Elaborar documentação javadoc;
+    * Implementar extrato por período; ok
+    * Elaborar manual de execução; ok
+    * Elaborar documentação javadoc; 
     * Elaborar testes;
     * Prazo de entrega;
     ```

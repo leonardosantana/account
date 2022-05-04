@@ -17,6 +17,7 @@ import java.time.LocalDateTime;
 public class TransactionEntity {
 
     @Id
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     @Column(name = "id_transaction")
     private Long idTransaction;
 
@@ -28,4 +29,7 @@ public class TransactionEntity {
 
     @Column(name="transaction_date", nullable = false)
     private LocalDateTime transactionDate;
+
+    @Column(name="operation", nullable = false)
+    private String operation;
 }
